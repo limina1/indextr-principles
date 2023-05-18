@@ -1,0 +1,40 @@
+* Reference Note
+** Elements
+- Meta-article Title
+- Author(s)
+- note title/subsection
+- Content: Markdown-like with hyperlinks to other notes and external references
+- tags (previous specification)
+- internal references: note id's extracted from content
+- Internal reference location: use #pf for paragraph, #pg for page, #s for sentence
+- external references: DOI- like entities extracted from markdown
+- External reference locations:
+  + References must indicate roughly the location in reference the conclusion is drawn from. Do not link to a full book or paper. Narrow down to numbered paragraphs or sentences
+  + example: (#pg, 3) //page 3
+             (#pg, 3, 7) ///pages 3 - 7
+             (#pg, 3, (#pf, 2, (#s, 3)), 4, (#pf, 2, (#s, 1)) ) //// (page 3, paragraph 2, sentence  3) to (page 4, paragraph 2, sentence 1)
+] ///Modify this to reduce complexity or if there are better formats
+- direct links: links to other notes of relevance (may be redundant given tags)
+- before/after link: For notes that construct an article. Tuple containing the subsection before and after the current note
+* Commentary Note
+- Reference Note ID
+- content: Markdown-like with hyperlinks
+- disagree-agree spectrum: (0-5 stars or 0%-100%)
+- location_id: points to specific section within other note similar to above reference spec
+* Question Note
+- Reference Note ID
+- Content: Question/clarification of interest
+  - Question location within note (either full id or another location ID)
+* Reference Literature Note (DOI)
+- Title: title of article
+- Author(s)
+- DOI: paper id
+- year
+* Bounty Note
+- Describe what you'd like to have explained: topics, questions, explanations etc.
+- bounty given
+
+* Extended Application:
+- Wiki, full length linear articles
+- Flashcards: Math problems, vocabulary, etc
+- Hosting technical documentation, allowing for external commentary/examples or even a direct stack overflow Q/A type of troubleshooting of syntax
