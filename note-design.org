@@ -1,5 +1,12 @@
-* Reference Note
-** Elements
+* Possible Applications:
+- Wiki or full length linear articles
+- Micro articles for hyperspecific topics (single molecules, parameter changes to algorithms)
+- Documentation of negative results or iterative work
+- Flashcards: Math problems, vocabulary, etc
+- Hosting technical documentation, allowing for external commentary/examples or even a direct stack overflow Q/A type of troubleshooting of syntax
+- A class can host their weekly assignments, where students generate commentary/summarization of specific content within a paper, discussion and critique of papers are allowed
+* Possible Note Descriptions
+** Reference Notes
 - Meta-article Title
 - Author(s)
 - note title/subsection
@@ -17,28 +24,28 @@
    + Aids in efficiently navigating ideas whether the reference is to another. Combats the "read this full book or paper to understand the idea" which is the format of standard references.
 - direct links: links to other notes of relevance (may be redundant given tags)
 - before/after link: For notes that construct a linear article. Tuple containing the subsection before and after the current note
-* Commentary Note
+** Commentary Note
 - Reference Note ID
 - content: Markdown-like with hyperlinks
 - disagree-agree spectrum: (0-5 stars or 0%-100%)
 - location_id: points to specific section within other note similar to above reference spec
-* Question Note
+** Question Note
 - Reference Note ID
 - Content: Question/clarification of interest
   - Question location within note (either full id or another location ID)
   
-* Reference Literature Note
+** Reference Literature Note
 - Title
 - Author(s)
 - DOI, URL or any other type of atomic external link
 - Date of content publication
   + allows commentary on external content such as a paper, blog, or podcast. 
-* Bounty Note
+** Bounty Note
 - Describe what you'd like to have explained: topics, questions, explanations etc.
 - bounty given
 
-* Extended Applications:
-- Wiki, full length linear articles
-- Flashcards: Math problems, vocabulary, etc
-- Hosting technical documentation, allowing for external commentary/examples or even a direct stack overflow Q/A type of troubleshooting of syntax
-- A class can host their weekly assignments, where students generate commentary/summarization of specific content within a paper, discussion and critique of papers are allowed
+* Relay/Client Philosophy
+- Host content you care about, don't connect to content you don't care for.
+- A group can host their content on their relay with exclusive write access while commentary can exist on other relays.
+- Aggregated relays can will compose a collective network of literature that the user is interested in, where content is easily navigable.
+
