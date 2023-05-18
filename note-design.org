@@ -21,7 +21,7 @@
              (#pg, 3, 7) ///pages 3 - 7
              (#pg, 3, (#pf, 2, (#s, 3)), 4, (#pf, 2, (#s, 1)) ) //// (page 3, paragraph 2, sentence  3) to (page 4, paragraph 2, sentence 1] ///Modify this to reduce complexity or if there are better formats
            
-   + Aids in efficiently navigating ideas whether the reference is to another. Combats the "read this full book or paper to understand the idea" which is the format of standard references.
+   + Aids in efficiently navigating ideas whether the reference is to another. Combats the "read this full book or paper to understand the idea" way of referencing other content which is prominentently used.
 - direct links: links to other notes of relevance (may be redundant given tags)
 - before/after link: For notes that construct a linear article. Tuple containing the subsection before and after the current note
 ** Commentary Note
