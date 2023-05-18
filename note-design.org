@@ -1,4 +1,4 @@
-* Possible Applications:
+* Possible Applications of a Zettle-Wiki:
 - Wiki or full length linear articles
 - Micro articles for hyperspecific topics (single molecules, parameter changes to algorithms)
 - Documentation of negative results or iterative work
