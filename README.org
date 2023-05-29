@@ -7,14 +7,14 @@
 - A class can host their weekly assignments, where students generate commentary/summarization of specific content within a paper, discussion and critique of papers are allowed
 * Possible Note Descriptions
 ** Reference Notes
-- Meta-article Title
-- Author(s)
-- note title/subsection
-- Content: Markdown-like with hyperlinks to other notes and external references
-- tags (previous specification)
-- internal references: note id's extracted from content
+- *Meta-article Title*
+- *Author(s)*
+- *note title/subsection*
+- *Content: Markdown-like with hyperlinks to other notes and external references*
+- *tags (previous specification)*
+- *internal references: note id's extracted from content*
+- *external references: DOI, URL or other external content link.*
 - internal reference location: use #pf for paragraph, #pg for page, #s for sentence
-- external references: DOI, URL or other external content link.
 - internal/external reference locations:
   + References can indicate roughly the location in a reference that a statement is drawn from. Narrowed down to numbered paragraphs or sentences
   + example: (#pg, 3) //page 3
