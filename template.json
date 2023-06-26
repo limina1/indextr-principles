@@ -1,0 +1,28 @@
+  {
+    "id": ,
+    "pubkey":,
+    "created_at": ,
+    "kind": 1,
+    "tags": [], // unsure if these nostr tags or article tags. Where are hashtags referenced?
+      "article tags": ['computer science', 'algorithms'] //if 'tags' are nostr, this will be a different field
+    "content":,
+    "sig": null,
+      "next_id": , // ID of next note in the article (if any), or next "suggested note"
+    "prev_id": , // ID of previous note in the article
+    "title": ,
+      "article_metadata": // all of this is from semantic scholar, but the metadata is not exclusive to semantic scholar. It can be pulled from other sources as well.
+      {"corpus_id": "600506", // semantic scholar reference ID
+    "doi":,
+    "year": ,
+    "url": ,
+    "authors": [],
+    "topics": [
+      "computer science", //may also be added in tags
+      "psychology"
+    ],
+      "external references": ,// references to outside articles, books, blogs, youtube videos, or pdf references.
+      }
+    "internal_references": , // references to other index cards. Might also be helpful to list the relays they belong to. In case a user wants to see the whole chain of references and has not connected to the relays that contain the other index cards.
+  }
+// Handling references: We might want to also look to Pablo's work for locations in text (highlighter.com).
+// Want to identify specifically the locations where the content derives its information from
